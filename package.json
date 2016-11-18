@@ -4,7 +4,8 @@
   "description": "мой проект все для детей на новой риге",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt less && grunt postcss",
+    "start": "npm run build && grunt serve"
   },
   "keywords": [
     "kids",
@@ -19,6 +20,7 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.5.3",
     "css-mqpacker": "^5.0.1",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
@@ -27,6 +29,7 @@
     "grunt-csso": "^2.1.0",
     "grunt-svgmin": "^4.0.0",
     "grunt-svgstore": "^1.0.0",
+    "less": "^2.7.1",
     "load-grunt-tasks": "^3.5.2"
   }
 }

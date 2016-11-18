@@ -3,9 +3,11 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>NewRigaKids</title>
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -25,22 +27,29 @@
           <li><a class="main-nav__link" href="/contact/">Contact</a></li>
         </ul>
         <div class="nav navbar-nav navbar-right">
-          <form name="search" action="#" method="get" class="form-inline form-search pull-right">
-	        <div class="input-group">
-		      <label class="sr-only" for="searchInput"></label>
-		      <input class="form-control" id="searchInput" type="text" name="search" placeholder="Search">
-		      <div class="input-group-btn">
-			    <button type="submit" class="btn btn-primary">Search</button>
-		      </div>
-	        </div>
-          </form>
+          <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+  <span class="glyphicon glyphicon-search"></span></button>
+  <div class="dropdown-menu">
+    <form name="search" action="#" method="get" class="form-inline form-search pull-right">
+	  <div class="input-group">
+		<label class="sr-only" for="searchInput"></label>
+		<input class="form-control" id="searchInput" type="text" name="search">
+		<div class="input-group-btn">
+        <button type="submit" class="btn btn-primary">Search</button>
+		</div>
+	  </div>
+    </form>
+  </div>
+</div>
+          
         </div>
         </div>
         </nav>
         </div>
     <div class="page-header__bottom">
       <div class="page-header__logo">
-        <img src="img/logo.png" alt="NewRigaKids logo">
+        <img class="main-logo" src="img/logo.png" alt="NewRigaKids logo">
       </div>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -236,8 +245,8 @@
       </div>
     </div>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </div>
 </body>
 

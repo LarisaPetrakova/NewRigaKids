@@ -1,0 +1,107 @@
+body, p {
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+}
+.page-header__top {
+  margin-bottom: 120px;
+}
+.navbar {
+  background-color: #ffffff;
+    box-shadow: 0px 3px 15px -2px rgba(0,0,0,0.1);
+}
+.navbar .container {
+  text-align: center;
+}
+.navbar-default .navbar-nav>li>a {
+  text-transform: uppercase;
+  padding-left: 14px;
+  padding-right: 31px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ff9cd2;
+}
+.navbar-default .navbar-nav>.active>a {
+  background-color: #ffffff;
+  color: #ff9cd2;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #ffffff;
+}
+.btn-primary {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+}
+.btn-primary:hover {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+}
+.btn-primary:active {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+}
+.btn-primary:active:focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  outline: none;
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+}
+.dropdown-toggle {
+  margin-top: 10px;
+}
+.dropdown-menu {
+  border-radius: 0;
+  border: none;
+  padding: 30px;
+}
+.dropdown-menu:before {
+  position: absolute;
+  top: -10px;
+  right: 19px;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5.5px 6px 5.5px;
+  border-color: transparent transparent #ff9cd2 transparent;
+}
+.dropdown-menu:after {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: #ff9cd2;
+}
+.form-control {
+  border: 1px solid #e1e1e1;
+  min-width: 200px;
+}
+.input-group-btn .btn-primary {
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0;
+  font-size: 13px;
+  font-family: Roboto, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.page-header__logo {
+  text-align: center;
+}
+.main-logo {
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.item img {
+  object-fit: cover;
+  height: 450px;
+}
